@@ -1,0 +1,45 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: black ;
+    padding: 15px;
+    font-size:sans-serif ;
+    color: blanchedalmond;
+
+}
+
+
+body{
+    background-color: rgb(73, 221, 209);
+
+}
+h1{
+    color: blue;
+    
+}
+.heading{
+    background-color: burlywood;
+    font-size:30;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.origami{
+    border-radius: 20px ;
+    background-color: cornsilk;
+    padding: 30px;
+    margin:25px;
+    width: 310px;
+    font-family: fantasy;
+}
+a:link{
+    color:pink
+}
+a:visited{
+    color: yellow;
+}
+.origami:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 20px 50px 0 rgba(0,0,0,0.19);
+}
